@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minu CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b03a910f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>Minu CV</h1>
+            <p class="author">
+                <span id="first-name"></span>
+                <span id="last-name"></span>
+            </p>
+            <p class="subtitle" id="job-title"></p>
+        </header>
+
+        <main>
+            <section class="image-container">
+                <div class="profile-image">
+                    <img id="carousel-image" src="images/banner.png" alt="Tehniline pilt">
+                </div>
+
+                <p class="carousel-help"></p>
+
+                <div class="image-actions">
+                    <ul class="image-actions-icons">
+                        <li>
+                            <a id="phone-link" href="#" aria-label="Telefon">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="email-link" href="#" aria-label="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="description">
+                <h2 class="main-title">Lühitutvustus</h2>
+
+                <div class="description-box">
+                    <p id="intro-text"></p>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <h2 class="main-title">Kontaktid</h2>
+
+                <div class="contacts-box">
+                    <p>Nimi: <span id="contact-name"></span></p>
+                    <p>Vanus: <span id="age"></span></p>
+                    <p>Email: <span id="email"></span></p>
+                    <p>Telefon: <span id="phone"></span></p>
+                    <p>Asukoht: <span id="location"></span></p>
+                </div>
+            </section>
+
+            <section class="cv-grid">
+                <div class="grid-item education">
+                    <h2 class="main-title">Haridus</h2>
+
+                    <div class="small-box">
+                        <ul id="education-list"></ul>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="grid-item experience">
+                    <h2 class="main-title">Töökogemus</h2>
+
+                    <div class="small-box">
+                        <ul id="experience-list"></ul>
+                        <hr>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills-section">
+                <h2 class="main-title">Lisakompetentsid ja kvalifikatsioonid</h2>
+
+                <div class="skills-box">
+                    <ul class="skills-list" id="skills-list"></ul>
+                </div>
+            </section>
+
+            <section class="languages-section">
+                <h2 class="main-title">Keeled</h2>
+
+                <div class="languages-box">
+                    <ul id="languages-list"></ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 <span id="footer-name"></span></p>
+        </footer>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

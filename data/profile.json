@@ -1,0 +1,33 @@
+{
+    "nimi": "Sergei",
+    "perekonnanimi": "Kotsetov",
+    "vanus": 25,
+    "kontaktEmail": "sergei.kotsetov@example.com",
+    "telefon": "+372 5555 1234",
+    "asukoht": "Tallinn, Eesti",
+    "ametikirjeldus": "IT-huviline / tehnik / tudeng",
+    "luhitutvustus": "Olen tehnika- ja IT-huviline inimene. Mind huvitavad veebiarendus, arvutid, seadmete seadistamine ja tehniliste probleemide lahendamine.",
+    "haridus": [
+        "Kooli nimi",
+        "Eriala / kursus",
+        "Aastad"
+    ],
+    "tookogemus": [
+        "Ametikoht",
+        "Ettevõte / praktika",
+        "Tööülesanded"
+    ],
+    "oskused": [
+        "HTML",
+        "CSS",
+        "LINUX",
+        "SQL",
+        "C++",
+        "Võrgud"
+    ],
+    "keeled": [
+        "eesti keel",
+        "vene keel",
+        "inglise keel"
+    ]
+}

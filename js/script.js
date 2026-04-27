@@ -3,7 +3,6 @@ const carouselImages = [
     "images/plane-engine.jpg",
     "images/srt-engine.jpg",
     "images/bmw-engine.jpg",
-    "images/camshaft-full.jpg"
 ];
 
 let imageIndex = 0;
